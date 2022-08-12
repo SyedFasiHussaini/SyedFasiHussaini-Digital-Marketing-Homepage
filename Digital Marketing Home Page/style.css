@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 50px 50px;
+}
+
+.navbar-container div img {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+}
+
+.grow-list {
+    width: 70vw;
+}
+
+.list {
+    position: relative;
+    top: 60px;
+    left: 15%;
+    position: absolute;
+}
+
+.list-item {
+    float: left;
+    padding: 0px 20pt;
+    list-style-type: none;
+    color: #758283;
+}
+
+.grow-list ul > li:first-of-type {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* .list-item:hover {
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+} */
+
+.button-group .nav-button {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    background-color: #5855B3;
+    color: #FFFFFF;
+    font-family: 'poppins';
+    border: none;
+    border-radius: 10px;
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: #5855B3;
+    color: #FFFFFF;
+    font-family: 'poppins';
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.banner-container {
+    width: 100vw;
+    height: 80vh;
+}
+
+.banner-container ~ div {
+    height: 80vh;
+}
+
+.heading-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    width: 35%;
+    line-height: 1.1;
+}
+
+.heading-text span {
+    color: #5855B3;
+}
+
+.description {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 30%;
+    text-align: left;
+    color: #758283;
+    font-size: 12px;
+}
+.btn {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.banner-container div img {
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+}
